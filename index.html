@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>FocusCode</title>
+</head>
+<body>
+    <header class="header">
+        <ul class="list-page">
+            <li class="page-element">Home</li>
+            <li class="page-element">Calendar</li>
+            <li class="page-element">Statistic</li>
+            <li class="page-element">Profile</li>
+        </ul>
+    </header>
+    <main class="main">
+        <section class="section__home">
+            <h2 class="home__title">Hello, Ivan!</h2> <!-- !CHANGE Ivan -->
+            <div class="time__box">
+                <div class="time">
+                    <span class="time__hours">00</span>
+                    <span class="">:</span>
+                    <span class="time__minutes">00</span>
+                    <span class="">:</span>
+                    <span class="time__seconds">00</span>
+                    <input type="number" class="input-hours" max="60" min="0" placeholder="00">
+                    <span class="">:</span>
+                    <input type="number" class="input-minutes" max="60" min="0" placeholder="00">
+                    <span class="">:</span>
+                    <input type="number" class="input-seconds" max="60" min="0" placeholder="00">
+                </div>
+                <!-- <div class="time__input">
+                    <input type="number" class="input__time">  
+                </div> -->
+<!-- !CHANGE  -->
+
+                <div class="time__controls">
+                    <button class="time__start">Start</button>
+                    <button class="time__stop">Stop</button>
+                </div>
+
+            </div>
+        </section>
+        <section class="section__calendar"></section>
+        <section class="section__statistic"></section>
+        <section class="section__profile"></section>
+    </main>
+
+    <script src="./script/script.js"></script>
+</body>
+</html>
